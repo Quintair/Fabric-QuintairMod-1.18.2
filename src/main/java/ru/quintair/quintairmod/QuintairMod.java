@@ -3,6 +3,7 @@ package ru.quintair.quintairmod;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import ru.quintair.quintairmod.block.ModBlocks;
 import ru.quintair.quintairmod.item.ModItems;
 
 public class QuintairMod implements ModInitializer {
@@ -15,6 +16,7 @@ public class QuintairMod implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }

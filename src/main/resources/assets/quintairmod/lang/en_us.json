@@ -1,4 +1,7 @@
 {
   "item.quintairmod.jade_ingot": "Jade Ingot",
-  "item.quintairmod.jade_nugget": "Jade Nugget"
+  "item.quintairmod.jade_nugget": "Jade Nugget",
+
+  "block.quintairmod.jade_block": "Jade Block"
+
 }
