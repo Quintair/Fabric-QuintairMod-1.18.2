@@ -10,11 +10,12 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import ru.quintair.quintairmod.QuintairMod;
+import ru.quintair.quintairmod.item.ModItemGroup;
 
 public class ModBlocks {
 
     public static final Block JADE_BLOCK = registerBlock("jade_block",
-        new Block(FabricBlockSettings.of(Material.AMETHYST).strength(6f).requiresTool()), ItemGroup.MISC);
+        new Block(FabricBlockSettings.of(Material.AMETHYST).strength(4f).requiresTool()), ModItemGroup.QUINTAIRGROUP);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup group){
