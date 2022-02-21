@@ -1,8 +1,9 @@
 {
-  "item.quintairmod.jade_ingot": "Нефритовый слиток",
+  "item.quintairmod.jade_ingot": "Нефритовый Слиток",
   "item.quintairmod.jade_nugget": "Кусочек Нефрита",
 
-  "block.quintairmod.jade_block": "Нефритовый блок",
+  "block.quintairmod.jade_block": "Нефритовый Блок",
+  "block.quintairmod.jade_ore": "Нефритовая Руда",
 
   "itemGroup.quintairmod.quintairgroup": "Квинтайр"
 }

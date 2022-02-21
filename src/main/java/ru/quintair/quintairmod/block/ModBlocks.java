@@ -15,7 +15,11 @@ import ru.quintair.quintairmod.item.ModItemGroup;
 public class ModBlocks {
 
     public static final Block JADE_BLOCK = registerBlock("jade_block",
-        new Block(FabricBlockSettings.of(Material.AMETHYST).strength(4f).requiresTool()), ModItemGroup.QUINTAIRGROUP);
+        new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.QUINTAIRGROUP);
+
+    public static final Block JADE_ORE = registerBlock("jade_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.QUINTAIRGROUP);
+
 
 
     private static Block registerBlock(String name, Block block, ItemGroup group){
