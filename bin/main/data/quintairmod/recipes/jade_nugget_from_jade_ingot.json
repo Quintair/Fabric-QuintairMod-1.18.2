@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "quintairmod:jade_ingot"
+    }
+  ],
+  "result": {
+    "item": "quintairmod:jade_nugget",
+    "count": 9
+  }
+}
