@@ -7,13 +7,15 @@ import net.minecraft.util.registry.Registry;
 import ru.quintair.quintairmod.QuintairMod;
 
 public class ModItems {
-    //TODO Сделать крафты в 1-ну ячейку.
 
     public static final Item JADE_INGOT = ModItems.registerItem ("jade_ingot",
             new Item(new FabricItemSettings().group(ModItemGroup.QUINTAIRGROUP).maxCount(64)));
 
     public static final Item JADE_NUGGET = ModItems.registerItem("jade_nugget",
             new Item(new FabricItemSettings().group(ModItemGroup.QUINTAIRGROUP).maxCount(64)));
+
+    public static final Item DRY_FUEL = ModItems.registerItem("dry_fuel",
+            new Item(new FabricItemSettings().group(ModItemGroup.QUINTAIRGROUP).maxCount(8)));
 
 
 
