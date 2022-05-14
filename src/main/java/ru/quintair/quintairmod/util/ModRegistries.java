@@ -14,6 +14,6 @@ public class ModRegistries {
         QuintairMod.LOGGER.info("Registering Fuels for " + QuintairMod.MOD_ID);
         FuelRegistry registry = FuelRegistry.INSTANCE;
 
-        registry.add(ModItems.DRY_FUEL, 500);
+        registry.add(ModItems.DRY_FUEL, 1);
     }
 }
