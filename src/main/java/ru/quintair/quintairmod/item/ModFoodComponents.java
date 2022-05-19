@@ -4,12 +4,12 @@ import net.minecraft.item.FoodComponent;
 
 public class ModFoodComponents {
 
-    public static final FoodComponent SPRAT;
+    public static final FoodComponent CRANBERRY_CNACK;
 
     public ModFoodComponents(){}
 
     static {
-        SPRAT = (new FoodComponent.Builder().hunger(5).saturationModifier(0.3F).snack().meat().build());
+        CRANBERRY_CNACK = (new FoodComponent.Builder().hunger(4).saturationModifier(0.15F).snack().build());
     }
 }
 

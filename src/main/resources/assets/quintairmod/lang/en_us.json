@@ -2,10 +2,12 @@
   "item.quintairmod.jade_ingot": "Jade Ingot",
   "item.quintairmod.jade_nugget": "Jade Nugget",
   "item.quintairmod.dry_fuel": "Dry Fuel",
-  "item.quintairmod.sprat": "Sprat",
+  "item.quintairmod.cranberry_snack": "Cranberry Snack",
 
   "block.quintairmod.jade_block": "Jade Block",
   "block.quintairmod.jade_ore": "Jade Ore",
 
-  "itemGroup.quintairmod.quintairgroup": "Quintair"
+  "itemGroup.quintairmod.quintairgroup": "Quintair",
+
+  "item.quintairmod.cranberry_snack.tooltip": "Just eat it"
 }

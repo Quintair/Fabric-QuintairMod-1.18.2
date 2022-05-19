@@ -18,8 +18,8 @@ public class ModItems {
     public static final Item DRY_FUEL = ModItems.registerItem("dry_fuel",
             new Item(new FabricItemSettings().maxCount(8).group(ModItemGroup.QUINTAIRGROUP)));
 
-    public static final Item SPRAT = ModItems.registerItem("sprat",
-            new Item(new FabricItemSettings().maxCount(64).group(ItemGroup.FOOD).food(ModFoodComponents.SPRAT)));
+    public static final Item CRANBERRY_SNACK = ModItems.registerItem("cranberry_snack",
+            new Item(new FabricItemSettings().maxCount(64).group(ItemGroup.FOOD).food(ModFoodComponents.CRANBERRY_CNACK)));
 
 
     private static Item registerItem(String name, Item item) {

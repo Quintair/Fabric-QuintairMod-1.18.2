@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "quintairmod:item/sprat"
+    "layer0": "quintairmod:item/cranberry_snack"
   }
 }
