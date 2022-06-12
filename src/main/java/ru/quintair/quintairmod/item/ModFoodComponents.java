@@ -16,7 +16,8 @@ public class ModFoodComponents {
         BALTIC_NINE = (new FoodComponent.Builder().hunger(20).saturationModifier(0.5F).meat().alwaysEdible()
                 .statusEffect(new StatusEffectInstance(StatusEffect.byRawId(9), 1200, 1), 1F)
                 .statusEffect(new StatusEffectInstance(StatusEffect.byRawId(10), 600, 1), 1F)
-                .statusEffect(new StatusEffectInstance(StatusEffect.byRawId(11), 600, 0), 1F).statusEffect(new StatusEffectInstance(StatusEffect.byRawId(19), 200, 1), 0.5F).build());
+                .statusEffect(new StatusEffectInstance(StatusEffect.byRawId(11), 600, 0), 1F)
+                .statusEffect(new StatusEffectInstance(StatusEffect.byRawId(19), 200, 1), 0.5F).build());
     }
 }
 
