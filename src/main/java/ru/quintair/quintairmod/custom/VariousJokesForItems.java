@@ -12,9 +12,7 @@ import org.jetbrains.annotations.Nullable;
 import java.util.List;
 
 public class VariousJokesForItems extends Item {
-
-
-    public VariousJokesForItems(Settings settings) {
+     public VariousJokesForItems(Settings settings) {
         super(settings);
     }
 
