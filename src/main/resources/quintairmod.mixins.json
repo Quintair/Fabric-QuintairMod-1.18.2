@@ -6,7 +6,7 @@
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "QuintairModMixin"
   ],
   "injectors": {
     "defaultRequire": 1

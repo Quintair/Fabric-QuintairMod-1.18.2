@@ -6,19 +6,15 @@ import net.minecraft.item.FoodComponent;
 
 public class ModFoodComponents {
 
-    public static final FoodComponent CRANBERRY_SNACK;
+    public static final FoodComponent CRANBERRY_COOKIES;
     public static final FoodComponent BALTIC_NINE;
 
-    public ModFoodComponents(){}
-
     static {
-        CRANBERRY_SNACK = (new FoodComponent.Builder().hunger(4).saturationModifier(0.15F).snack().build());
+        CRANBERRY_COOKIES = (new FoodComponent.Builder().hunger(4).saturationModifier(0.15F).snack().build());
         BALTIC_NINE = (new FoodComponent.Builder().hunger(20).saturationModifier(0.5F).meat().alwaysEdible()
-                .statusEffect(new StatusEffectInstance(StatusEffect.byRawId(9), 1200, 1), 1F)
-                .statusEffect(new StatusEffectInstance(StatusEffect.byRawId(10), 600, 1), 1F)
-                .statusEffect(new StatusEffectInstance(StatusEffect.byRawId(11), 600, 0), 1F)
-                .statusEffect(new StatusEffectInstance(StatusEffect.byRawId(19), 200, 1), 0.5F).build());
+                .statusEffect(new StatusEffectInstance(StatusEffect.byRawId(9), 600, 1), 1F)
+                .statusEffect(new StatusEffectInstance(StatusEffect.byRawId(10), 200, 1), 1F)
+                .statusEffect(new StatusEffectInstance(StatusEffect.byRawId(11), 200, 0), 1F)
+                .statusEffect(new StatusEffectInstance(StatusEffect.byRawId(19), 100, 1), 0.2F).build());
     }
 }
-
-

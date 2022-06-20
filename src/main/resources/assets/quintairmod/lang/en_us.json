@@ -1,12 +1,12 @@
 {
-  "item.quintairmod.baltic_nine": "Baltic Nine",
-  "item.quintairmod.cranberry_snack": "Cranberry Snack",
   "item.quintairmod.dry_fuel": "Dry Fuel",
-  "item.quintairmod.jade_ingot": "Jade Ingot",
-  "item.quintairmod.jade_nugget": "Jade Nugget",
+  "item.quintairmod.loufrium_ingot": "Loufrium Ingot",
 
-  "block.quintairmod.jade_block": "Jade Block",
-  "block.quintairmod.jade_ore": "Jade Ore",
+  "block.quintairmod.loufrium_block": "Loufrium Block",
+  "block.quintairmod.loufrium_ore": "Loufrium Ore",
+
+  "item.quintairmod.baltic_nine": "Baltic Nine",
+  "item.quintairmod.cranberry_cookies": "Cranberry Cookies",
 
   "itemGroup.quintairmod.quintairgroup": "Quintair",
 
