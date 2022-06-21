@@ -11,7 +11,7 @@ discrete_mouse_scroll:false
 invertYMouse:false
 realmsNotifications:true
 reducedDebugInfo:false
-showSubtitles:false
+showSubtitles:true
 touchscreen:false
 fullscreen:true
 bobView:true
@@ -40,7 +40,7 @@ resourcePacks:["vanilla","Fabric Mods"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:ru_ru
-soundDevice:
+soundDevice:OpenAL Soft on FxSound Speakers (FxSound Audio Enhancer)
 chatVisibility:0
 chatOpacity:1.0
 chatLineSpacing:0.0
@@ -108,7 +108,7 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
-soundCategory_master:0.11258278
+soundCategory_master:0.6705298
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
