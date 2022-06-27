@@ -10,12 +10,13 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import ru.quintair.quintairmod.QuintairMod;
+import ru.quintair.quintairmod.block.custom.LoufriumBlock;
 import ru.quintair.quintairmod.item.ModItemGroups;
 
 public class ModBlocks {
 
     public static final Block LOUFRIUM_BLOCK = registerBlock("loufrium_block",
-            new Block(FabricBlockSettings.of(Material.METAL).sounds(BlockSoundGroup.METAL).strength(4f).requiresTool()), ModItemGroups.QUINTAIRGROUP);
+            new LoufriumBlock(FabricBlockSettings.of(Material.METAL).sounds(BlockSoundGroup.METAL).strength(4f).requiresTool()), ModItemGroups.QUINTAIRGROUP);
 
     public static final Block LOUFRIUM_ORE = registerBlock("loufrium_ore",
             new Block(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.STONE).strength(4f).requiresTool()), ModItemGroups.QUINTAIRGROUP);
