@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:loufrium_block"
+      "item": "quintairmod:loufrium_block"
     }
   ],
   "result": {
     "count": 9,
-    "item": "minecraft:loufrium_ingot"
+    "item": "quintairmod:loufrium_ingot"
   }
 }

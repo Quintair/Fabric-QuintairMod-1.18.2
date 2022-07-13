@@ -3,7 +3,7 @@
   "cookingtime": 100,
   "experience": 0.7,
   "ingredient": {
-    "item": "minecraft:loufrium_ore"
+    "item": "quintairmod:loufrium_ore"
   },
-  "result": "minecraft:loufrium_ingot"
+  "result": "quintairmod:loufrium_ingot"
 }
