@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Quintair Mod",
-  "description": "Как создавать эти ваши моды?",
+  "description": "Да как делать эти ваши моды?",
   "authors": [
     "Quintair"
   ],
@@ -14,12 +14,15 @@
   },
 
   "license": "MIT",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/quintairmod/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
       "ru.quintair.quintairmod.QuintairMod"
+    ],
+    "client": [
+      "ru.quintair.quintairmod.QuintairModClient"
     ]
   },
   "mixins": [
@@ -27,12 +30,9 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.12.12",
+    "fabricloader": ">=0.14.8",
     "fabric": "*",
-    "minecraft": "1.18.x",
+    "minecraft": "1.18.2",
     "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "quintairmod:block/loufrium_ore"
+  }
+}

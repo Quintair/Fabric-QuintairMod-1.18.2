@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "quintairmod:block/mushroom_tinder" },
+    "facing=east": { "model": "quintairmod:block/mushroom_tinder", "y": 90 },
+    "facing=south": { "model": "quintairmod:block/mushroom_tinder", "y": 180 },
+    "facing=west": { "model": "quintairmod:block/mushroom_tinder", "y": 270 }
+  }
+}

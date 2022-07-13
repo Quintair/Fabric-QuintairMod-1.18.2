@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "quintairmod:jade_block",
-    "quintairmod:jade_ore"
+    "quintairmod:loufrium_block",
+    "quintairmod:loufrium_ore"
   ]
 }

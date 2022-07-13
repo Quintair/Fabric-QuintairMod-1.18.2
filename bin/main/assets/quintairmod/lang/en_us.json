@@ -1,9 +1,16 @@
 {
-  "item.quintairmod.jade_ingot": "Jade Ingot",
-  "item.quintairmod.jade_nugget": "Jade Nugget",
+  "item.quintairmod.dry_fuel": "Dry Fuel",
+  "item.quintairmod.loufrium_ingot": "Loufrium Ingot",
 
-  "block.quintairmod.jade_block": "Jade Block",
-  "block.quintairmod.jade_ore": "Jade Ore",
+  "block.quintairmod.loufrium_block": "Loufrium Block",
+  "block.quintairmod.loufrium_ore": "Loufrium Ore",
+  "block.quintairmod.mushroom_tinder": "Mushroom Tinder",
 
-  "itemGroup.quintairmod.quintairgroup": "Quintair"
+  "item.quintairmod.baltic_nine": "Baltic Nine",
+  "item.quintairmod.cranberry_cookies": "Cranberry Cookies",
+
+  "itemGroup.quintairmod.quintairgroup": "Quintair",
+
+  "item.quintairmod.enigmatic_music_disc": "§bMusic Disc",
+  "item.quintairmod.enigmatic_music_disc.desc": "Seva - Enigmatic"
 }

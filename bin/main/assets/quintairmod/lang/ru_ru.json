@@ -1,9 +1,16 @@
 {
-  "item.quintairmod.jade_ingot": "Нефритовый Слиток",
-  "item.quintairmod.jade_nugget": "Кусочек Нефрита",
+  "item.quintairmod.dry_fuel": "Сухое Горючее",
+  "item.quintairmod.loufrium_ingot": "Луфриумовый Слиток",
 
-  "block.quintairmod.jade_block": "Нефритовый Блок",
-  "block.quintairmod.jade_ore": "Нефритовая Руда",
+  "block.quintairmod.loufrium_block": "Луфриумовый Блок",
+  "block.quintairmod.loufrium_ore": "Луфриумовая Руда",
+  "block.quintairmod.mushroom_tinder": "Гриб Трутовик",
 
-  "itemGroup.quintairmod.quintairgroup": "Квинтайр"
+  "item.quintairmod.baltic_nine": "Балтика Девятка",
+  "item.quintairmod.cranberry_cookies": "Клюквенное Печенье",
+
+  "itemGroup.quintairmod.quintairgroup": "Quintair",
+
+  "item.quintairmod.enigmatic_music_disc": "§bПластинка",
+  "item.quintairmod.enigmatic_music_disc.desc": "Seva - Enigmatic"
 }
