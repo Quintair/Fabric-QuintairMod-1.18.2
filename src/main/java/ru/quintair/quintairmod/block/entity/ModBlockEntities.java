@@ -9,12 +9,12 @@ import ru.quintair.quintairmod.block.ModBlocks;
 
 public class ModBlockEntities {
 
-    public static BlockEntityType<LoufriumBlockEntity> LOUFRIUM_BLOCK;
+    public static BlockEntityType<ToolReforgerEntity> TOOL_REFORGER;
 
     public static void registerAllBlockEntities(){
-        LOUFRIUM_BLOCK = Registry.register(Registry.BLOCK_ENTITY_TYPE,
-                new Identifier(QuintairMod.MOD_ID, "loufrium_block"), FabricBlockEntityTypeBuilder.
-                        create(LoufriumBlockEntity::new, ModBlocks.LOUFRIUM_BLOCK).build(null));
+        TOOL_REFORGER = Registry.register(Registry.BLOCK_ENTITY_TYPE,
+                new Identifier(QuintairMod.MOD_ID, "tool_reforger"), FabricBlockEntityTypeBuilder.
+                        create(ToolReforgerEntity::new, ModBlocks.TOOL_REFORGER).build(null));
     }
 
 

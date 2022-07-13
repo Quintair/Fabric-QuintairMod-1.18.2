@@ -18,15 +18,15 @@ import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 import ru.quintair.quintairmod.item.ModItems;
 import ru.quintair.quintairmod.item.inventory.ImplementedInventory;
-import ru.quintair.quintairmod.screen.LoufriumBlockScreenHandler;
+import ru.quintair.quintairmod.screen.ToolReforgerScreenHandler;
 
-public class LoufriumBlockEntity extends BlockEntity implements NamedScreenHandlerFactory, ImplementedInventory {
+public class ToolReforgerEntity extends BlockEntity implements NamedScreenHandlerFactory, ImplementedInventory {
 
     private final DefaultedList<ItemStack> inventory = DefaultedList.ofSize(4, ItemStack.EMPTY);
 
 
-    public LoufriumBlockEntity(BlockPos pos, BlockState state) {
-        super(ModBlockEntities.LOUFRIUM_BLOCK, pos, state);
+    public ToolReforgerEntity(BlockPos pos, BlockState state) {
+        super(ModBlockEntities.TOOL_REFORGER, pos, state);
     }
 
     @Override
@@ -42,7 +42,7 @@ public class LoufriumBlockEntity extends BlockEntity implements NamedScreenHandl
     @Nullable
     @Override
     public ScreenHandler createMenu(int syncId, PlayerInventory inv, PlayerEntity player) {
-        return new LoufriumBlockScreenHandler(syncId, inv, this);
+        return new ToolReforgerScreenHandler(syncId, inv, this);
     }
 
     @Override
@@ -57,13 +57,13 @@ public class LoufriumBlockEntity extends BlockEntity implements NamedScreenHandl
         super.readNbt(nbt);
     }
 
-    public static void tick(World world, BlockPos pos, BlockState state, LoufriumBlockEntity entity) {
+    public static void tick(World world, BlockPos pos, BlockState state, ToolReforgerEntity entity) {
         if(hasRecipe(entity) && hasNotReachedStackLimit(entity)) {
             craftItem(entity);
         }
     }
 
-    private static void craftItem(LoufriumBlockEntity entity) {
+    private static void craftItem(ToolReforgerEntity entity) {
         entity.removeStack(0, 1);
         entity.removeStack(1, 1);
         entity.removeStack(2, 1);
@@ -72,7 +72,7 @@ public class LoufriumBlockEntity extends BlockEntity implements NamedScreenHandl
                 entity.getStack(3).getCount() + 1));
     }
 
-    private static boolean hasRecipe(LoufriumBlockEntity entity) {
+    private static boolean hasRecipe(ToolReforgerEntity entity) {
         boolean hasItemInFirstSlot = entity.getStack(0).getItem() == ModItems.CRANBERRY_COOKIES;
         boolean hasItemInSecondSlot = entity.getStack(1).getItem() == Items.GOLDEN_PICKAXE;
         boolean hasItemInThirdSlot = entity.getStack(2).getItem() == ModItems.BALTIC_NINE;
@@ -80,7 +80,7 @@ public class LoufriumBlockEntity extends BlockEntity implements NamedScreenHandl
         return hasItemInFirstSlot && hasItemInSecondSlot && hasItemInThirdSlot;
     }
 
-    private static boolean hasNotReachedStackLimit(LoufriumBlockEntity entity) {
+    private static boolean hasNotReachedStackLimit(ToolReforgerEntity entity) {
         return entity.getStack(3).getCount() < entity.getStack(3).getMaxCount();
     }
 }

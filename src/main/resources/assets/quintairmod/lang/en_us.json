@@ -1,8 +1,10 @@
 {
   "item.quintairmod.dry_fuel": "Dry Fuel",
+
   "item.quintairmod.loufrium_ingot": "Loufrium Ingot",
 
   "block.quintairmod.loufrium_block": "Loufrium Block",
+  "block.quintairmod.tool_reforger": "Tool Refroger",
   "block.quintairmod.loufrium_ore": "Loufrium Ore",
   "block.quintairmod.mushroom_tinder": "Mushroom Tinder",
 

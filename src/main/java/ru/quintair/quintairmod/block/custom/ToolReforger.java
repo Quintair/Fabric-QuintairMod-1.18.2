@@ -16,11 +16,11 @@ import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
-import ru.quintair.quintairmod.block.entity.LoufriumBlockEntity;
+import ru.quintair.quintairmod.block.entity.ToolReforgerEntity;
 import ru.quintair.quintairmod.block.entity.ModBlockEntities;
 
-public class LoufriumBlock extends BlockWithEntity implements BlockEntityProvider {
-    public LoufriumBlock(Settings settings) {
+public class ToolReforger extends BlockWithEntity implements BlockEntityProvider {
+    public ToolReforger(Settings settings) {
         super(settings);
     }
 
@@ -36,8 +36,8 @@ public class LoufriumBlock extends BlockWithEntity implements BlockEntityProvide
 
         if (state.getBlock() != newState.getBlock()) {
             BlockEntity blockEntity = world.getBlockEntity(pos);
-            if (blockEntity instanceof LoufriumBlockEntity) {
-                ItemScatterer.spawn(world, pos, (LoufriumBlockEntity)blockEntity);
+            if (blockEntity instanceof ToolReforgerEntity) {
+                ItemScatterer.spawn(world, pos, (ToolReforgerEntity)blockEntity);
                 world.updateComparators(pos, this);
             }
             super.onStateReplaced(state, world, pos, newState, moved);
@@ -60,12 +60,12 @@ public class LoufriumBlock extends BlockWithEntity implements BlockEntityProvide
     @Nullable
     @Override
     public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
-        return checkType(type, ModBlockEntities.LOUFRIUM_BLOCK, LoufriumBlockEntity::tick);
+        return checkType(type, ModBlockEntities.TOOL_REFORGER, ToolReforgerEntity::tick);
     }
 
     @Nullable
     @Override
     public BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
-        return new LoufriumBlockEntity(pos, state);
+        return new ToolReforgerEntity(pos, state);
     }
 }

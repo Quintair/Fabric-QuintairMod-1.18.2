@@ -9,12 +9,12 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import ru.quintair.quintairmod.QuintairMod;
 
-public class LoufriumBlockScreen extends HandledScreen<LoufriumBlockScreenHandler> {
-    public LoufriumBlockScreen(LoufriumBlockScreenHandler handler, PlayerInventory inventory, Text title) {
+public class ToolReforgerScreen extends HandledScreen<ToolReforgerScreenHandler> {
+    public ToolReforgerScreen(ToolReforgerScreenHandler handler, PlayerInventory inventory, Text title) {
         super(handler, inventory, title);
     }
 
-    public static final Identifier TEXTURE = new Identifier(QuintairMod.MOD_ID, "textures/gui/loufrium_block_gui.png");
+    public static final Identifier TEXTURE = new Identifier(QuintairMod.MOD_ID, "textures/gui/tool_reforger_gui.png");
 
     @Override
     protected void init() {

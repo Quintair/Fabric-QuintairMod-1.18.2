@@ -6,8 +6,8 @@ import net.minecraft.util.Identifier;
 import ru.quintair.quintairmod.QuintairMod;
 
 public class ModScreenHandlers {
-    public static ScreenHandlerType<LoufriumBlockScreenHandler> LOUFRIUM_BLOCK_SCREEN_HANDLER =
-            ScreenHandlerRegistry.registerSimple(new Identifier(QuintairMod.MOD_ID, "loufrium_block"),
-                    LoufriumBlockScreenHandler::new);
+    public static ScreenHandlerType<ToolReforgerScreenHandler> TOOL_REFORGER_SCREEN_HANDLER =
+            ScreenHandlerRegistry.registerSimple(new Identifier(QuintairMod.MOD_ID, "tool_reforger"),
+                    ToolReforgerScreenHandler::new);
 
 }

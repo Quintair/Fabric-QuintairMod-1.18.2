@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "quintairmod:block/loufrium_block"
+    "all": "quintairmod:block/tool_reforger"
   }
 }

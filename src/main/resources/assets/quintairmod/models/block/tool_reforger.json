@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "quintairmod:block/tool_reforger_bottom",
+    "north": "quintairmod:block/tool_reforger_side",
+    "south": "quintairmod:block/tool_reforger_side",
+    "east": "quintairmod:block/tool_reforger_side",
+    "west": "quintairmod:block/tool_reforger_side",
+    "up": "quintairmod:block/tool_reforger_top",
+    "down": "quintairmod:block/tool_reforger_bottom"
+  }
+}

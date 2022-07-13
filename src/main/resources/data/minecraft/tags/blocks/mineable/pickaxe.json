@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "quintairmod:loufrium_block",
+    "quintairmod:tool_reforger",
     "quintairmod:loufrium_ore"
   ]
 }

@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "quintairmod:block/loufrium_block" }
+    "": { "model": "quintairmod:block/tool_reforger" }
   }
 }

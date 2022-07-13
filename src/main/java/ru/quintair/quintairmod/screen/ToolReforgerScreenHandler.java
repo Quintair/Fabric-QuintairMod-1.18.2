@@ -10,15 +10,15 @@ import net.minecraft.screen.slot.Slot;
 import ru.quintair.quintairmod.screen.slot.ModFuelSlot;
 import ru.quintair.quintairmod.screen.slot.ModResultSlot;
 
-public class LoufriumBlockScreenHandler extends ScreenHandler {
+public class ToolReforgerScreenHandler extends ScreenHandler {
     private final Inventory inventory;
 
-    protected LoufriumBlockScreenHandler(int syncId, PlayerInventory playerInventory) {
+    protected ToolReforgerScreenHandler(int syncId, PlayerInventory playerInventory) {
         this(syncId, playerInventory, new SimpleInventory(4));
     }
 
-    public LoufriumBlockScreenHandler(int syncId, PlayerInventory playerInventory, Inventory inventory) {
-        super(ModScreenHandlers.LOUFRIUM_BLOCK_SCREEN_HANDLER, syncId);
+    public ToolReforgerScreenHandler(int syncId, PlayerInventory playerInventory, Inventory inventory) {
+        super(ModScreenHandlers.TOOL_REFORGER_SCREEN_HANDLER, syncId);
         checkSize(inventory, 4);
         this.inventory = inventory;
         inventory.onOpen(playerInventory.player);

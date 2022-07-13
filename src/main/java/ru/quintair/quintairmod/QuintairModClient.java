@@ -5,7 +5,7 @@ import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.screenhandler.v1.ScreenRegistry;
 import net.minecraft.client.render.RenderLayer;
 import ru.quintair.quintairmod.block.ModBlocks;
-import ru.quintair.quintairmod.screen.LoufriumBlockScreen;
+import ru.quintair.quintairmod.screen.ToolReforgerScreen;
 import ru.quintair.quintairmod.screen.ModScreenHandlers;
 
 public class QuintairModClient implements ClientModInitializer {
@@ -15,7 +15,7 @@ public class QuintairModClient implements ClientModInitializer {
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MUSHROOM_TINDER, RenderLayer.getCutout());
 
-        ScreenRegistry.register(ModScreenHandlers.LOUFRIUM_BLOCK_SCREEN_HANDLER, LoufriumBlockScreen::new);
+        ScreenRegistry.register(ModScreenHandlers.TOOL_REFORGER_SCREEN_HANDLER, ToolReforgerScreen::new);
 
     }
 }
