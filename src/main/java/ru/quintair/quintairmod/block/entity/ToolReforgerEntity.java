@@ -58,7 +58,7 @@ public class ToolReforgerEntity extends BlockEntity implements NamedScreenHandle
     }
 
     public static void tick(World world, BlockPos pos, BlockState state, ToolReforgerEntity entity) {
-        if(hasRecipe(entity) && hasNotReachedStackLimit(entity)) {
+        if (hasRecipe(entity) && hasNotReachedStackLimit(entity)) {
             craftItem(entity);
         }
     }

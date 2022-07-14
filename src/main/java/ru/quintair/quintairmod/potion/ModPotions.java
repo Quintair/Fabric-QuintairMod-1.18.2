@@ -13,7 +13,7 @@ public class ModPotions extends Potion {
         return (Potion) Registry.register(Registry.POTION, name, potion);
     }
 
-    public static void registerModPotion(){
+    public static void registerModPotion() {
         QuintairMod.LOGGER.debug("Registering Mod Potion for " + QuintairMod.MOD_ID);
     }
 

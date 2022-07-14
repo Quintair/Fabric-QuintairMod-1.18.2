@@ -10,7 +10,7 @@ public class ModRegisters {
         registerFuels();
     }
 
-    public static void registerFuels(){
+    public static void registerFuels() {
         QuintairMod.LOGGER.debug("Registering Fuels for " + QuintairMod.MOD_ID);
         FuelRegistry registry = FuelRegistry.INSTANCE;
 

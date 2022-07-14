@@ -8,9 +8,9 @@ import ru.quintair.quintairmod.QuintairMod;
 
 public class ModItemGroups {
 
-        public static final ItemGroup QUINTAIRGROUP = FabricItemGroupBuilder.
-                build(new Identifier(QuintairMod.MOD_ID, "quintairgroup"),
-                        () -> new ItemStack(ModItems.LOUFRIUM_INGOT));
+    public static final ItemGroup QUINTAIRGROUP = FabricItemGroupBuilder.
+            build(new Identifier(QuintairMod.MOD_ID, "quintairgroup"),
+                    () -> new ItemStack(ModItems.LOUFRIUM_INGOT));
 }
 
 

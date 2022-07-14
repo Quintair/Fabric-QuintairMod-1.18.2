@@ -37,7 +37,7 @@ public class ToolReforger extends BlockWithEntity implements BlockEntityProvider
         if (state.getBlock() != newState.getBlock()) {
             BlockEntity blockEntity = world.getBlockEntity(pos);
             if (blockEntity instanceof ToolReforgerEntity) {
-                ItemScatterer.spawn(world, pos, (ToolReforgerEntity)blockEntity);
+                ItemScatterer.spawn(world, pos, (ToolReforgerEntity) blockEntity);
                 world.updateComparators(pos, this);
             }
             super.onStateReplaced(state, world, pos, newState, moved);
@@ -47,10 +47,10 @@ public class ToolReforger extends BlockWithEntity implements BlockEntityProvider
     @Override
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
 
-        if(!world.isClient){
+        if (!world.isClient) {
             NamedScreenHandlerFactory screenHandlerFactory = state.createScreenHandlerFactory(world, pos);
 
-            if(screenHandlerFactory != null){
+            if (screenHandlerFactory != null) {
                 player.openHandledScreen(screenHandlerFactory);
             }
         }

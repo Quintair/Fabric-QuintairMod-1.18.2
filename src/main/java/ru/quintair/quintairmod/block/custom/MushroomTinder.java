@@ -81,7 +81,7 @@ public class MushroomTinder extends Block {
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
-        switch (state.get(FACING)){
+        switch (state.get(FACING)) {
             case NORTH:
                 return SHAPE_N;
             case SOUTH:

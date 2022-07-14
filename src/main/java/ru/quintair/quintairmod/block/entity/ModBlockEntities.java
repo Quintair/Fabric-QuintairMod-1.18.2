@@ -11,7 +11,7 @@ public class ModBlockEntities {
 
     public static BlockEntityType<ToolReforgerEntity> TOOL_REFORGER;
 
-    public static void registerAllBlockEntities(){
+    public static void registerAllBlockEntities() {
         TOOL_REFORGER = Registry.register(Registry.BLOCK_ENTITY_TYPE,
                 new Identifier(QuintairMod.MOD_ID, "tool_reforger"), FabricBlockEntityTypeBuilder.
                         create(ToolReforgerEntity::new, ModBlocks.TOOL_REFORGER).build(null));

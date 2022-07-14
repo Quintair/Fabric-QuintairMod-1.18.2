@@ -6,24 +6,26 @@ import org.slf4j.LoggerFactory;
 import ru.quintair.quintairmod.block.ModBlocks;
 import ru.quintair.quintairmod.block.entity.ModBlockEntities;
 import ru.quintair.quintairmod.item.ModItems;
-import ru.quintair.quintairmod.potion.ModPotions;
+import ru.quintair.quintairmod.painting.ModPaintings;
 import ru.quintair.quintairmod.util.ModRegisters;
 
 public class QuintairMod implements ModInitializer {
 
-	public static final String MOD_ID = "quintairmod";
-	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+    public static final String MOD_ID = "quintairmod";
+    public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
-	@Override
-	public void onInitialize() {
+    @Override
+    public void onInitialize() {
 
-		ModItems.registerModItems();
+        ModItems.registerModItems();
 
-		ModBlocks.registerModBlocks();
-		ModBlockEntities.registerAllBlockEntities();
+        ModPaintings.registerPaintings();
 
-		ModRegisters.registerFuels();
+        ModBlocks.registerModBlocks();
+        ModBlockEntities.registerAllBlockEntities();
 
-		LOGGER.info("Hello Fabric world!");
-	}
+        ModRegisters.registerFuels();
+
+        LOGGER.info("Hello Fabric world!");
+    }
 }
